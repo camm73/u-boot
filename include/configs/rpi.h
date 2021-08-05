@@ -80,6 +80,14 @@
 /* Environment */
 #define CONFIG_SYS_LOAD_ADDR		0x1000000
 
+/* Add Bootcount recording */
+#define CONFIG_BOOTCOUNT_ENV
+#define CONFIG_BOOTCOUNT_LIMIT
+
+/* Set Environment Device and Parition */
+#define CONFIG_SYS_MMC_ENV_PART   0
+#define CONFIG_SYS_MMC_ENV_DEV    0
+
 /* Shell */
 
 /* ATAGs support for bootm/bootz */
